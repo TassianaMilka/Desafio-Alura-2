@@ -30,6 +30,10 @@ na finalidade de compreender o que é cada peça;
 
 
 
+https://github.com/user-attachments/assets/946b68d6-8292-4e02-a5d9-fe3e6226fbd1
+
+
+
 https://desafio-alura-2.vercel.app/
 
 
