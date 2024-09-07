@@ -1,0 +1,190 @@
+/* Importa a fonte Raleway do Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* Estiliza o corpo da página */
+body {
+
+    font-family: "Raleway", sans-serif;
+    background-image: url("image.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+    padding:0;
+
+}
+
+/* Estiliza os títulos h1 */
+h1,
+h2 {
+
+    font-size: 2.5rem;
+    color: #030303;
+    text-align: center;
+    /* letter-spacing: 0.4rem;*/
+
+}
+
+
+/* Estiliza as seções da página */
+section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #000000;
+    color: #F5F7F8;
+    font-size: 1rem;
+}
+
+/* Efeito hover ao botão de pesquisa */
+section button:hover {
+
+    background-color: #00ffff;
+    border-color: #000000;
+
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado,
+.item-resultado-proxima{
+
+    background: #FFFFFF;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2,
+.item-resultado h3{
+
+    font-size: 1.5rem;
+    color: #222831;
+
+}
+
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+
+    text-decoration: none;
+    color: #30475E;
+
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+
+    color: #00ffff;
+    /*text-decoration: underline;*/
+}
+
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta{
+
+    color: #45474B;
+    margin: 0.9rem 0;
+
+}
+
+
+/* Estiliza o rodapé da página */
+footer {
+
+    color: #7409ee;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+/*Página maior e menor*/
+@media (max-width: 768px) {
+    h1 {
+
+        font-size: 2rem;
+        /*letter-spacing: 0.2rem;*/
+    }
+
+    section input {
+
+        width: 25rem;
+        padding: 0.8rem;
+
+    }
+
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h1 {
+
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+
+    }
+
+    section input {
+
+        width: 17rem;
+
+    }
+
+    section button {
+
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+
+    }
+
+    footer {
+
+        font-size: 0.9rem;
+
+    }
+}
