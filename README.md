@@ -5,7 +5,7 @@
 
 -Realizado em Setembro;
 
--Utilazando o Visual Studio Code;
+-Utilizando o Visual Studio Code;
 
 
 -A funcionalidade principal é a criação de um campo de pesquisa para encontrar o que está armazenado para isso foi utilizado o tema de xadrez
