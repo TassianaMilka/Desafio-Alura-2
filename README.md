@@ -19,9 +19,9 @@ na finalidade de compreender o que é cada peça;
 
 - Torre;
 
-- Rei:
+- Rei;
 
-- Dama:
+- Dama;
   
 - Bispo.
 
