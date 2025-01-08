@@ -3,7 +3,7 @@
 
 ## Challenge
 
--Realizado em Setembro;
+-Realizado em Setembro de 2024;
 
 -Utilizando o Visual Studio Code;
 
